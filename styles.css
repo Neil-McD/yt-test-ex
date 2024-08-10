@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4a4a4a; /* Background color similar to what appears in the image */
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4a4a4a; /* Same as the body to make it blend */
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+
+main h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+main h2 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+main p {
+    font-size: 1.2rem;
+    color: #d4d4d4;
+}
